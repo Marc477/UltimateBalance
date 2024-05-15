@@ -1,0 +1,25 @@
+{
+	"ai":
+	{
+		"pawn":
+		{
+			"resources": { "wood" : 10, "mercury": 5, "ore": 10, "sulfur": 5, "crystal": 5, "gems": 5, "gold": 10000, "mithril": 0 },
+		},
+		"knight":
+		{
+			"resources": { "wood" : 20, "mercury": 10, "ore": 20, "sulfur": 10, "crystal": 10, "gems": 10, "gold": 20000, "mithril": 0 },
+		},
+		"rook":
+		{
+			"resources": { "wood" : 50, "mercury": 20, "ore": 50, "sulfur": 20, "crystal": 20, "gems": 20, "gold": 30000, "mithril": 0 },
+		},
+		"queen":
+		{
+			"resources": { "wood" : 80, "mercury": 30, "ore": 80, "sulfur": 30, "crystal": 30, "gems": 30, "gold": 40000, "mithril": 0 },
+		},
+		"king":
+		{
+			"resources": { "wood" : 100, "mercury": 50, "ore": 100, "sulfur": 50, "crystal": 50, "gems": 50, "gold": 50000, "mithril": 0 },
+		}
+	}
+}

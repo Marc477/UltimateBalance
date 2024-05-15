@@ -1,0 +1,245 @@
+{
+	
+	// ------- Ultimate Balance --------------
+	
+	
+	"core:eagleEye" : {
+		
+		"basic" : {
+			"description":"{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 50% chance to learn any spell up to 3nd level used in combat.",	
+			"effects" : {
+				"main" : { "val" : 50 },
+				"val2" : { "val" : 3 },
+			}
+		}
+		"advanced" : {
+			"description":"{Advanced Eagle Eye}\n\nBasic Eagle Eye gives your hero a 65% chance to learn any spell up to 4nd level used in combat.",	
+			"effects" : {
+				"main" : { "val" : 65 },
+				"val2" : { "val" : 4 },
+			}
+		}
+		"expert" : {
+			"description":"{Expert Eagle Eye}\n\nBasic Eagle Eye gives your hero a 80% chance to learn any spell up to 5nd level used in combat.",	
+			"effects" : {
+				"main" : { "val" : 80 },
+				"val2" : { "val" : 5 },
+			}
+		}
+	},
+	
+	"core:firstAid" : {
+		"basic" : {
+			"description": "{Basic First Aid}\n\nGives control of the first aid tent to the hero, healing 75 points of damage to the first unit of the selected stack.",
+			"effects" : {
+				"main" : { "val" : 75 }
+			}
+		},
+		"advanced" : {
+			"description": "{Advanced First Aid}\n\nGives control of the first aid tent to the hero, healing 150 points of damage to the first unit of the selected stack.",
+			"effects" : {
+				"main" : { "val" : 150 }
+			}
+		},
+		"expert" : {
+			"description": "{Expert First Aid}\n\nGives control of the first aid tent to the hero, healing 250 points of damage to the first unit of the selected stack.",
+			"effects" : {
+				"main" : { "val" : 250 }
+			}
+		}
+	},
+	
+	"core:artillery" : {
+		"basic" : {
+			"description": "{Basic Artillery}\n\nGives control of the ballista and defense towers to the hero. The ballista inflicts double damage.",
+			"effects" : {
+				"main" : { "val" : 100 },
+				"val2" : { "val" : 0 }
+			}
+		},
+		"advanced" : {
+			"description": "{Advanced Artillery}\n\nGives control of the ballista and defense towers to the hero. The ballista inflicts double damage and shoots two times.",
+			"effects" : {
+				"main" : { "val" : 100 },
+				"val2" : { "val" : 1 }
+			}
+		},
+		"expert" : {
+			"description": "{Expert Artillery}\n\nGives control of the ballista and defense towers to the hero. The ballista inflicts double damage and shoots three times.",
+			"effects" : {
+				"main" : { "val" : 100 },
+				"val2" : { "val" : 2 }
+			}
+		}
+	},
+	
+	"core:learning" : {
+		"basic" : {
+			"description": "{Basic Learning}\n\nIncreases a hero's earned experience by 10%.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"advanced" : {
+			"description": "{Advanced Learning}\n\nIncreases a hero's earned experience by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"expert" : {
+			"description": "{Expert Learning}\n\nIncreases a hero's earned experience by 30%.",
+			"effects" : {
+				"main" : { "val" : 30 }
+			}
+		}
+	},
+	
+	"core:sorcery" : {
+		"basic" : {
+			"description": "{Basic Sorcery}\n\nCauses a hero's spells to inflict an additional 10% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"advanced" : {
+			"description": "{Advanced Sorcery}\n\nCauses a hero's spells to inflict an additional 20% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"expert" : {
+			"description": "{Expert Sorcery}\n\nCauses a hero's spells to inflict an additional 30% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 30 }
+			}
+		}
+	},
+	
+	
+	
+	// ------- HOTA Balance --------------
+	
+	
+	"core:logistics" : {
+		"basic" : {
+			"description" : "{Basic Logistics}\n\nBasic Logistics increases your hero's movement points over land by 5%.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Logistics}\n\nAdvanced Logistics increases your hero's movement points over land by 10%.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Logistics}\n\nExpert Logistics increases your hero's movement points over land by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		}
+	},
+	"core:scouting" : {
+		"basic" : {
+			"description" : "{Basic Scouting}\n\nBasic Scouting allows your hero to see 1 square further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Scouting}\n\nAdvanced Scouting allows your hero to see 3 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 3 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Scouting}\n\nExpert Scouting allows your hero to see 5 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		}
+	},
+	"core:mysticism" : {
+		"basic" : {
+			"description" : "{Basic Mysticism}\n\nBasic Mysticism allows your hero to regenerate 5 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 4 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Mysticism}\n\nAdvanced Mysticism allows your hero to regenerate 10 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 9 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Mysticism}\n\nExpert Mysticism allows your hero to regenerate 15 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 14 }
+			}
+		}
+	},
+	"core:necromancy" : {
+		"basic" : {
+			"description" : "{Basic Necromancy}\n\nBasic Necromancy allows 5% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Necromancy}\n\nAdvanced Necromancy allows 10% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Necromancy}\n\nExpert Necromancy allows 15% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		}
+	},
+
+	"core:estates" : {
+		"basic" : {
+			"description" : "{Basic Estates}\n\nYour hero contributes 250 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 250 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Estates}\n\nYour hero contributes 500 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 500 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Estates}\n\nYour hero contributes 1000 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 1000 }
+			}
+		}
+	},
+	
+	"core:intelligence" : {
+		"basic" : {
+			"description" : "{Basic Intelligence}\n\nBasic Intelligence increases a hero's normal maximum spell points by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Intelligence}\n\nAdvanced Intelligence increases a hero's normal maximum spell points by 35%.",
+			"effects" : {
+				"main" : { "val" : 35 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Intelligence}\n\nExpert Intelligence increases a hero's normal maximum spell points by 50%.",
+			"effects" : {
+				"main" : { "val" : 50 }
+			}
+		}
+	}
+}
