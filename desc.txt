@@ -77,5 +77,3 @@ Tower Town Mage Tower
 Does not require Golem Factory anymore to be built.
 
 
-
-This mods also includes HOTA balance changes
