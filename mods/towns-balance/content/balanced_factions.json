@@ -1,0 +1,18 @@
+{
+	// ------- Ultimate Balance ----------
+	
+	
+	"core:tower" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl4":   { "requires" : [ "allOf", [ "mageGuild1" ], [ "dwellingLvl2" ] ] },
+			}
+		}
+	},
+	
+}
+
+

@@ -1,0 +1,752 @@
+{
+	// ------- Ultimate Balance --------------
+	
+	"core:summonBoat" : {
+		
+		"levels" : {
+			"none": {
+				"cost": 7
+			},
+			"base" : {
+				"cost": 5
+			},
+			"advanced" : {
+				"cost": 5
+			},
+			"expert" : {
+				"cost": 5
+			}
+		}
+	},
+	"core:scuttleBoat" : {
+		"levels" : {
+			"none": {
+				"cost": 7
+			},
+			"base" : {
+				"cost": 5
+			},
+			"advanced" : {
+				"cost": 5
+			},
+			"expert" : {
+				"cost": 5
+			}
+		}
+	},
+	
+	"core:counterstrike" : {
+		"levels" : {
+			"none": {
+				"cost": 16
+			},
+			"base" : {
+				"cost": 12
+			},
+			"advanced" : {
+				"cost": 12
+			},
+			"expert" : {
+				"cost": 12
+			}
+		}
+	},
+	
+	"core:earthquake" : {
+		"levels" : {
+			"none": {
+				"cost": 16
+			},
+			"base" : {
+				"cost": 12
+			},
+			"advanced" : {
+				"cost": 12
+			},
+			"expert" : {
+				"cost": 12
+			}
+		}
+	},
+	
+	"core:sacrifice" : {
+		"levels" : {
+			"none": {
+				"cost": 20
+			},
+			"base" : {
+				"cost": 16
+			},
+			"advanced" : {
+				"cost": 16
+			},
+			"expert" : {
+				"cost": 16
+			}
+		}
+	},
+	
+	"core:clone" : {
+		"levels" : {
+			"none": {
+				"cost": 20
+			},
+			"base" : {
+				"cost": 16
+			},
+			"advanced" : {
+				"cost": 16
+			},
+			"expert" : {
+				"cost": 16
+			}
+		}
+	},
+	
+	"core:fortune" : {
+		
+		"targetType":"LOCATION",
+				
+		"levels" : {
+			"none":{
+				"description":"{Misfortune}\n\nIncreases the Luck of friendly units in a small area by 2.",
+				"range": "0-1",
+				"effects" : {
+					"luck" : {
+						"val" : 2
+					}
+				}
+			},
+			"base":{
+				"description":"{Misfortune}\n\nIncreases the Luck of friendly units in a small area by 2.",
+				
+				"range": "0-1",
+				"effects" : {
+					"luck" : {
+						"val" : 2
+					}
+				}
+			},
+			"advanced":{
+				"description":"{Advanced Misfortune}\n\nIncreases the Luck of friendly units in a medium area by 3.",
+				
+				"range": "0-2",
+				"effects" : {
+					"luck" : {
+						"val" : 3
+					}
+				}
+			},
+			"expert":{
+				"description":"{Expert Misfortune}\n\nIncreases the Luck of all friendly units by 3.",
+				
+				"range": "X",
+				"effects" : {
+					"luck" : {
+						"val" : 3
+					}
+				}
+			}
+		}
+	},
+	
+	"core:misfortune" : {
+		
+		"targetType":"LOCATION",
+				
+		"levels" : {
+			"none":{
+				"description":"{Misfortune}\n\nLuck of enemy troops in a small area is reduced by 2.",
+				"range": "0-1",
+				"effects" : {
+					"luck" : {
+						"val" : -2
+					}
+				}
+			},
+			"base":{
+				"description":"{Misfortune}\n\nLuck of enemy troops in a small area is reduced by 2.",
+				
+				"range": "0-1",
+				"effects" : {
+					"luck" : {
+						"val" : -2
+					}
+				}
+			},
+			"advanced":{
+				"description":"{Advanced Misfortune}\n\nLuck of enemy troops in a medium area is reduced by 3.",
+				
+				"range": "0-2",
+				"effects" : {
+					"luck" : {
+						"val" : -3
+					}
+				}
+			},
+			"expert":{
+				"description":"{Expert Misfortune}\n\nLuck of all enemy troops is reduced by 3.",
+				
+				"range": "X",
+				"effects" : {
+					"luck" : {
+						"val" : -3
+					}
+				}
+			}
+		}
+	},
+	
+	"core:mirth" : {
+		
+		"targetType":"LOCATION",
+				
+		"levels" : {
+			"none":{
+				"description":"{Mirth}\n\nIncreases the Morale of friendly units in a small area by 2.",
+				"range": "0-1",
+				"effects" : {
+					"morale" : {
+						"val" : 2
+					}
+				}
+			},
+			"base":{
+				"description":"{Mirth}\n\nIncreases the Morale of friendly units in a small area by 2.",
+				
+				"range": "0-1",
+				"effects" : {
+					"morale" : {
+						"val" : 2
+					}
+				}
+			},
+			"advanced":{
+				"description":"{Advanced Mirth}\n\nIncreases the Morale of friendly units in a medium area by 3.",
+				
+				"range": "0-2",
+				"effects" : {
+					"morale" : {
+						"val" : 3
+					}
+				}
+			},
+			"expert":{
+				"description":"{Expert Mirth}\n\nIncreases the Morale of all friendly units by 3.",
+				
+				"range": "X",
+				"effects" : {
+					"morale" : {
+						"val" : 3
+					}
+				}
+			}
+		}
+	},
+	
+	"core:sorrow" : {
+		
+		"targetType":"LOCATION",
+				
+		"levels" : {
+			"none":{
+				"description":"{Sorrow}\n\nMorale of enemy troops in a small area is reduced by 2.",
+				"range": "0-1",
+				"effects" : {
+					"morale" : {
+						"val" : -2
+					}
+				}
+			},
+			"base":{
+				"description":"{Sorrow}\n\nMorale of enemy troops in a small area is reduced by 2.",
+				
+				"range": "0-1",
+				"effects" : {
+					"morale" : {
+						"val" : -2
+					}
+				}
+			},
+			"advanced":{
+				"description":"{Advanced Sorrow}\n\nMorale of enemy troops in a medium area is reduced by 3.",
+				
+				"range": "0-2",
+				"effects" : {
+					"morale" : {
+						"val" : -3
+					}
+				}
+			},
+			"expert":{
+				"description":"{Expert Sorrow}\n\nMorale of all enemy troops is reduced by 3.",
+				
+				"range": "X",
+				"effects" : {
+					"morale" : {
+						"val" : -3
+					}
+				}
+			}
+		}
+	},
+	
+	"core:magicMirror" : {
+		"targetType":"LOCATION",
+		
+		"levels" : {
+			
+			"none": {
+				"cost": 15,
+				"description":"{Magic Mirror}\n\nEnemy spells cast on allied troop in a small area have a 50% chance of being redirected to a random enemy troop.",
+				
+				"range": "0-1",
+				"effects" : {
+					"magicMirror" : {
+						"val" : 50
+					}
+				}
+			},
+			"base" : {
+				"cost": 12,
+				"description":"{Magic Mirror}\n\nEnemy spells cast on allied troop in a small area have a 50% chance of being redirected to a random enemy troop.",
+				
+				"range": "0-1",
+				"effects" : {
+					"magicMirror" : {
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"cost": 12,
+				"description":"{Advanced Magic Mirror}\n\nEnemy spells cast on allied troop in a medium area have a 50% chance of being redirected to a random enemy troop.",
+				
+				"range": "0-2",
+				"effects" : {
+					"magicMirror" : {
+						"val" : 50
+					}
+				}
+			},
+			"expert" : {
+				"cost": 12,
+				"description":"{Expert Magic Mirror}\n\nEnemy spells cast on all friendly troops have a 50% chance of being redirected to a random enemy troop.",
+				
+				"range" : "X",
+				"effects" : {
+					"magicMirror" : {
+						"val" : 50
+					}
+				}
+			}
+		}
+	},
+	
+	"core:protectAir" : {
+        "targetType":"LOCATION",
+		"levels" : {
+			"none":{
+				"description": "{Protection from Air}\n\nProtects friendly units in a medium area, reducing damage received from Air spells by 50%",
+				"cost": 7,
+				"range": "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},
+			"base":{
+				"description": "{Protection from Air}\n\nProtects friendly units in a medium area, reducing damage received from Air spells by 50%",
+				"cost": 5,
+				"range": "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},
+			"advanced":{
+				"description": "{Protection from Air}\n\nProtects friendly units in a large area, reducing damage received from Air spells by 75%",
+				"range" : "0-3",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},			
+			"expert":{
+				"description": "{Expert Protection from Air}\n\nProtects all friendly units, reducing damage received from Air spells by 75%.",
+				"cost": 7,
+				"range" : "X",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+
+	},
+	"core:protectFire" : {
+        "targetType":"LOCATION",
+		"levels" : {
+			"none":{
+				"description": "{Protection from Fire}\n\nProtects friendly units in a medium area, reducing damage received from Fire spells by 50%",
+				"cost": 7,
+				"range" : "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},	
+			"none":{
+				"description": "{Protection from Fire}\n\nProtects friendly units in a medium area, reducing damage received from Fire spells by 50%",
+				"cost": 5,
+				"range" : "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},	
+			"advanced":{
+				"description": "{Protection from Fire}\n\nProtects friendly units in a large area, reducing damage received from Fire spells by 75%",
+				"cost": 5,
+				"range" : "0-3",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},			
+			"expert":{
+				"description": "{Expert Protection from Fire}\n\nProtects all friendly units, reducing damage received from Fire spells by 75%.",
+				"cost": 5,
+				"range" : "X",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectWater" : {
+        "targetType":"LOCATION",
+		"levels" : {
+			"none":{
+				"description": "{Protection from Water}\n\nProtects friendly units in a medium area, reducing damage received from Water spells by 50%",
+				"cost": 7,
+				"range" : "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},	
+			"basic":{
+				"description": "{Protection from Water}\n\nProtects friendly units in a medium area, reducing damage received from Water spells by 50%",
+				"cost": 5,
+				"range" : "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},	
+			"advanced":{
+				"description": "{Protection from Water}\n\nProtects friendly units in a large area, reducing damage received from Water spells by 75%",
+				"cost": 5,
+				"range" : "0-3",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},			
+			"expert":{
+				"description": "{Expert Protection from Water}\n\nProtects all friendly units, reducing damage received from Water spells by 75%.",
+				"cost": 5,
+				"range" : "X",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectEarth" : {
+        "targetType":"LOCATION",
+		"levels" : {
+			"none":{
+				"description": "{Protection from Earth}\n\nProtects friendly units in a medium area, reducing damage received from Earth spells by 50%",
+				"cost": 7,
+				"range" : "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},	
+			"basic":{
+				"description": "{Protection from Earth}\n\nProtects friendly units in a medium area, reducing damage received from Earth spells by 50%",
+				"cost": 5,
+				"range" : "0-2",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},		
+			"advanced":{
+				"description": "{Protection from Earth}\n\nProtects friendly units in a large area, reducing damage received from Earth spells by 75%",
+				"cost": 5,
+				"range" : "0-3",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},			
+			"expert":{
+				"description": "{Expert Protection from Earth}\n\nProtects all friendly units, reducing damage received from Earth spells by 75%.",
+				"cost": 5,
+				"range" : "X",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	
+	"core:precision" : {
+		"levels" : {
+			"none":{
+				"description": "Increases the selected friendly ranged unit's attack strength for ranged attacks by 4.",
+				"effects" : {
+					"primarySkill" : {
+						"val" : 4
+					}
+				}
+			},
+			"advanced":{
+				"description": "Increases the selected friendly ranged unit's attack strength for ranged attacks by 4.",
+				"effects" : {
+					"primarySkill" : {
+						"val" : 4
+					}
+				}
+			},
+			"advanced":{
+				"description": "Increases the selected friendly ranged unit's attack strength for ranged attacks by 8.",
+				"effects" : {
+					"primarySkill" : {
+						"val" : 8
+					}
+				}
+			},
+			"expert":{
+				"description": "Increases all friendly ranged unit's attack strength for ranged attacks by 8.",
+				"range" : "X",
+				"effects" : {
+					"primarySkill" : {
+						"val" : 8
+					}
+				}
+			}
+		}
+	},
+	
+	"core:slayer" : {
+		"levels" : {
+			"none":{
+				"description": "Target allied troop's attack rating is increased by 8 against behemoths, dragons and hydras.",
+				"cost": 12,
+				"power" : 8,
+			},
+			
+			"basic":{
+				"description": "Target allied troop's attack rating is increased by 8 against behemoths, dragons and hydras.",
+				"cost": 10,
+				"power" : 8,
+			},
+			"advanced":{
+				"description": "Target allied troop's attack rating is increased by 12 against behemoths, dragons, hydras, angels and devils",
+				"cost": 10,
+				"power" : 12,
+			},
+			"expert":{
+				"description": "Target allied troop's attack rating is increased by 16 against behemoths, dragons, hydras, angels, devils and titans",
+				"cost": 10,
+				"power" : 16,
+			}
+		}
+	},
+	
+	"core:prayer" : {
+		"levels" : {
+			"none":{
+				"description": "Target, allied troop's attack, defense, and speed ratings are increased by 3.",
+				"effects" : {
+					"attack" : {
+						"val" : 3
+					},
+					"defence" : {
+						"val" : 3
+					},
+					"stacksSpeed" : {
+						"val" : 3
+					}
+				}
+			},
+			
+			"basic":{
+				"description": "Target, allied troop's attack, defense, and speed ratings are increased by 3.",
+				"effects" : {
+					"attack" : {
+						"val" : 3
+					},
+					"defence" : {
+						"val" : 3
+					},
+					"stacksSpeed" : {
+						"val" : 3
+					}
+				}
+			},
+			"advanced":{
+				"description": "Target, allied troop's attack, defense, and speed ratings are increased by 5.",
+				"effects" : {
+					"attack" : {
+						"val" : 5
+					},
+					"defence" : {
+						"val" : 5
+					},
+					"stacksSpeed" : {
+						"val" : 5
+					}
+				}
+			},
+			"expert":{
+				"range" : "X",
+				"description": "All allied troop's attack, defense, and speed ratings are increased by 5.",
+				"effects" : {
+					"attack" : {
+						"val" : 5
+					},
+					"defence" : {
+						"val" : 5
+					},
+					"stacksSpeed" : {
+						"val" : 5
+					}
+				}
+			}
+		}
+	},
+	
+	"core:disruptingRay" : {
+		"levels" : {
+			"none": {
+				"description": "{Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 3. A single enemy may be targeted multiple times by this spell.",
+				"cumulativeEffects" : {
+					"primarySkill" : {
+						"val" : -3
+					}
+				}
+			},
+			"base" : {
+				"description": "{Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 3. A single enemy may be targeted multiple times by this spell.",
+				"cumulativeEffects" : {
+					"primarySkill" : {
+						"val" : -3
+					}
+				}
+			},
+			"advanced" : {
+				"description": "{Advanced Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 5. A single enemy may be targeted multiple times by this spell.",
+				"cumulativeEffects" : {
+					"primarySkill" : {
+						"val" : -5
+					}
+				}
+			},
+			"expert" : {
+				"description": "{Expert Disrupting Ray}\n\nReduces all enemy units' defense strength by 5. Enemies may be targeted multiple times by this spell.",
+				"range": "X",
+				"cumulativeEffects" : {
+					"primarySkill" : {
+						"val" : -5
+					}
+				}
+			}
+		}
+	},
+	
+	"core:fireShield" : {
+		"levels" : {
+			"none": {
+				"description": "{Fire Shield}\n\n25% of hand-to-hand damage inflicted on target, allied troop is counter-inflicted on attackers of the troop.",
+				"effects" : {
+					"fireShield" : {
+						"val" : 20
+					}
+				}
+			},
+			"base" : {
+				"description": "{Fire Shield}\n\n25% of hand-to-hand damage inflicted on target, allied troop is counter-inflicted on attackers of the troop.",
+				"effects" : {
+					"fireShield" : {
+						"val" : 20
+					}
+				}
+			},
+			"advanced" : {
+				"description": "{Advanced Fire Shield}\n\n30% of hand-to-hand damage inflicted on target, allied troop is counter-inflicted on attackers of the troop.",
+				"effects" : {
+					"fireShield" : {
+						"val" : 30
+					}
+				}
+			},
+			"expert" : {
+				"description": "{Expert Fire Shield}\n\n35% of hand-to-hand damage inflicted on target, allied troop is counter-inflicted on attackers of the troop.",
+				"range": "X",
+				"effects" : {
+					"fireShield" : {
+						"val" : 40
+					}
+				}
+			}
+		}
+	},
+	
+	
+	"core:frostring" : {
+		"power" : 15
+	}
+	
+	"core:fireball" : {
+		"power" : 15
+	}
+	
+	"core:inferno" : {
+		"power" : 15
+	}
+	
+	"core:landMineTrigger" : {
+		"power" : 15
+	}
+	
+	"core:cure" : {
+		"power" : 7
+	}
+	
+	
+}
