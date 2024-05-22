@@ -5,6 +5,6 @@
 	"version" : "1.0.0",
 	"keepDisabled" : true,
 	
-	"description" : "AI starts with more resources. Knight difficulty AI will have the same amount of resources as you. At higher levels the AI will start with more."
+	"description" : "AI starts with more resources. Knight difficulty AI will have the same amount of resources as you. At higher levels the AI will start with more. You can keep this submod off if you already have the Boost AI mod."
 
 }
