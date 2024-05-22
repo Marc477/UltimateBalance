@@ -17,7 +17,7 @@ Precision / Prayer:
 The amount of attack (and defense for prayer) has been increased by an extra +1.
 
 Disrupting Ray:
-Now expert level affects all units, defense changed from -3/-4/-5 to -3/-5/-5.
+Defense changed from -3/-4/-5 to -3/-5/-7.
 
 Slayer:
 Bonus Attack against specified creatures, increased from 8/8/8 to 8/12/16

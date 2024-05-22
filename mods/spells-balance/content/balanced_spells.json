@@ -678,11 +678,10 @@
 				}
 			},
 			"expert" : {
-				"description": "{Expert Disrupting Ray}\n\nReduces all enemy units' defense strength by 5. Enemies may be targeted multiple times by this spell.",
-				"range": "X",
+				"description": "{Expert Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 7. A single enemy may be targeted multiple times by this spell.",
 				"cumulativeEffects" : {
 					"primarySkill" : {
-						"val" : -5
+						"val" : -7
 					}
 				}
 			}
