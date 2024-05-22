@@ -1,7 +1,8 @@
 {
 	"name" : "AI Balance",
-	"modType" : "Balance",	
+	"modType" : "Other",	
 	"author" : "Marc",
+	"contact" : "",
 	"version" : "1.0.0",
 	"keepDisabled" : true,
 	

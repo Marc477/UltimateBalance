@@ -401,7 +401,7 @@
 					}
 				}
 			},	
-			"none":{
+			"basic":{
 				"description": "{Protection from Fire}\n\nProtects friendly units in a medium area, reducing damage received from Fire spells by 50%",
 				"cost": 5,
 				"range" : "0-2",
@@ -534,7 +534,7 @@
 					}
 				}
 			},
-			"advanced":{
+			"basic":{
 				"description": "Increases the selected friendly ranged unit's attack strength for ranged attacks by 4.",
 				"effects" : {
 					"primarySkill" : {
@@ -729,23 +729,23 @@
 	
 	"core:frostRing" : {
 		"power" : 15
-	}
+	},
 	
 	"core:fireball" : {
 		"power" : 15
-	}
+	},
 	
 	"core:inferno" : {
 		"power" : 15
-	}
+	},
 	
 	"core:landMineTrigger" : {
 		"power" : 15
-	}
+	},
 	
 	"core:cure" : {
 		"power" : 7
-	}
+	},
 	
 	
 }

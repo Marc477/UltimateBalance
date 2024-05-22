@@ -11,14 +11,14 @@
 				"main" : { "val" : 50 },
 				"val2" : { "val" : 3 },
 			}
-		}
+		},
 		"advanced" : {
 			"description":"{Advanced Eagle Eye}\n\nBasic Eagle Eye gives your hero a 65% chance to learn any spell up to 4nd level used in combat.",	
 			"effects" : {
 				"main" : { "val" : 65 },
 				"val2" : { "val" : 4 },
 			}
-		}
+		},
 		"expert" : {
 			"description":"{Expert Eagle Eye}\n\nBasic Eagle Eye gives your hero a 80% chance to learn any spell up to 5nd level used in combat.",	
 			"effects" : {
