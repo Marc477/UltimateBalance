@@ -39,12 +39,12 @@
 		"growth" : 8
 	},
 	
-	"core:orcchieftain" :
+	"core:orcChieftain" :
 	{
 		"growth" : 8
 	},
 	
-	"core:cyclopking" :
+	"core:cyclopKing" :
 	{
 		"cost" :
 		{
@@ -58,7 +58,7 @@
 		"defense": 19
 	},
 	
-	"core:chaoshydra" :
+	"core:chaosHydra" :
 	{
 		"attack": 19,
 		"defense": 21

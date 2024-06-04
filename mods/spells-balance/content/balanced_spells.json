@@ -401,7 +401,7 @@
 					}
 				}
 			},	
-			"none":{
+			"basic":{
 				"description": "{Protection from Fire}\n\nProtects friendly units in a medium area, reducing damage received from Fire spells by 50%",
 				"cost": 5,
 				"range" : "0-2",
@@ -534,7 +534,7 @@
 					}
 				}
 			},
-			"advanced":{
+			"basic":{
 				"description": "Increases the selected friendly ranged unit's attack strength for ranged attacks by 4.",
 				"effects" : {
 					"primarySkill" : {
@@ -678,11 +678,10 @@
 				}
 			},
 			"expert" : {
-				"description": "{Expert Disrupting Ray}\n\nReduces all enemy units' defense strength by 5. Enemies may be targeted multiple times by this spell.",
-				"range": "X",
+				"description": "{Expert Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 7. A single enemy may be targeted multiple times by this spell.",
 				"cumulativeEffects" : {
 					"primarySkill" : {
-						"val" : -5
+						"val" : -7
 					}
 				}
 			}
@@ -728,25 +727,25 @@
 	},
 	
 	
-	"core:frostring" : {
+	"core:frostRing" : {
 		"power" : 15
-	}
+	},
 	
 	"core:fireball" : {
 		"power" : 15
-	}
+	},
 	
 	"core:inferno" : {
 		"power" : 15
-	}
+	},
 	
 	"core:landMineTrigger" : {
 		"power" : 15
-	}
+	},
 	
 	"core:cure" : {
 		"power" : 7
-	}
+	},
 	
 	
 }
